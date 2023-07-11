@@ -20,7 +20,9 @@
     color: #272727;
     text-align: center;
 }
-
+.title span{
+    color: #E55473;
+}
 .description {
     color: rgba(39, 39, 39, 0.60);
     width: 600px;
@@ -97,53 +99,54 @@
 .featured {
     padding: 100px 0;
     text-align: center;
-max-width: 1400px;
-margin:0 auto
+    max-width: 1400px;
+    margin: 0 auto
 }
 
 .featured-flowres {
     display: flex;
     justify-content: center;
     gap: 25px;
-    
+
     margin: 0 auto;
 
 }
 
-.flowers{
+.flowers {
     display: flex;
     justify-content: center;
-    gap:25px;
+    gap: 25px;
     align-items: auto baseline;
     margin-top: 50px;
 }
 
 
 .box1 {
-    background:rgba(167, 33, 98, 0.15);
-    border-radius:300px 300px 0px 0px;
-    width:464px;
-    padding:110px 76px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    width: 464px;
+    padding: 110px 76px 0px;
 }
 
 .box2 {
     background: rgba(5, 151, 160, 0.15);
-    border-radius:300px 300px 0px 0px;
-    width:464px;
-    padding:117px 57px 51px;
+    border-radius: 300px 300px 0px 0px;
+    width: 464px;
+    padding: 117px 57px 51px;
 }
 
 .box3 {
     background: rgba(71, 125, 17, 0.15);
-    border-radius:300px 300px 0px 0px;
-    width:464px;
-    padding:67px 75px 0px;
+    border-radius: 300px 300px 0px 0px;
+    width: 464px;
+    padding: 67px 75px 0px;
 }
-.flower-caption{
+
+.flower-caption {
     display: flex;
     justify-content: center;
-    gap:400px;
-    margin:30px;
+    gap: 400px;
+    margin: 30px;
 
 }
 
@@ -155,4 +158,19 @@ margin:0 auto
 .flower-caption a:hover {
     color: #E55473;
 
+}
+
+/* Hot deal section styles */
+.hot-deal {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 186px;
+    align-items: center;
+}
+
+.deal-content {
+    text-align: center;
 }
