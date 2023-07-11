@@ -1,0 +1,81 @@
+/* Common Styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.btn-primery {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    color: white;
+    border: 0;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Top part - Navigation menu and banner styles  */
+.top-part {
+    background: rgba(229, 84, 115, 0.10);
+    color: #272727
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px dashed #E55473;
+}
+
+.logo {
+    font-size: 28px;
+}
+
+.logo span {
+    color: #E55473
+}
+
+.navbar>ul {
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar>ul>li {
+    list-style: none;
+    margin-left: 5px;
+    padding: 10px;
+}
+
+.navbar>ul>li>a:hover {
+    color: #E55473;
+}
+
+.navbar>ul>li>a {
+    text-decoration: none;
+    color: #272727;
+    font-size: 18px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.banner-content{
+    max-width: 650px;
+}
+
+.banner-title{
+    font-size: 80px;
+    color:#272727
+}
+
+.banner-description{
+color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+margin:30px 0px;
+}
