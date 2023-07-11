@@ -14,7 +14,9 @@
     font-size: 20px;
     cursor: pointer;
 }
-
+.btn-primery:hover{
+    box-shadow: 5px 5px 10px #272727;
+}
 .title {
     font-size: 40px;
     color: #272727;
@@ -185,4 +187,25 @@
     justify-content: center;
     gap:25px;
     margin: 50px 0;
+}
+.insta-images img:hover{
+    box-shadow: 10px 10px 30px #E55473;
+}
+
+/* subscribe box styles */
+.subscribe-box{
+    background-image: url('../assets/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    padding: 100px;
+    max-width: 1250px;
+    margin:150px auto;
+    text-align: center;
+}
+input{
+    width: 650px;
+
+border:0;
+border-radius: 8px;
+padding: 25px;
+margin-right:10px
 }
