@@ -27,6 +27,7 @@
     color: rgba(39, 39, 39, 0.60);
     width: 600px;
     margin: 25px auto;
+    text-align: center;
 }
 
 /* Top part - Navigation menu and banner styles  */
@@ -173,4 +174,15 @@
 
 .deal-content {
     text-align: center;
+}
+
+/* Instagram image section styles */
+.instagram{
+    margin: 100px 0px;
+}
+.insta-images{
+    display: flex;
+    justify-content: center;
+    gap:25px;
+    margin: 50px 0;
 }
