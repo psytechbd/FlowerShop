@@ -14,35 +14,42 @@
     font-size: 20px;
     cursor: pointer;
 }
-.btn-primery:hover{
+
+.btn-primery:hover {
     box-shadow: 5px 5px 10px #272727;
 }
+
 .title {
     font-size: 40px;
     color: #272727;
     text-align: center;
 }
-.title span{
+
+.title span {
     color: #E55473;
 }
+
 .description {
     color: rgba(39, 39, 39, 0.60);
     width: 600px;
     margin: 25px auto;
     text-align: center;
+    font-size: 18px;
 }
 
 /* Top part - Navigation menu and banner styles  */
 .top-part {
     background: rgba(229, 84, 115, 0.10);
-    color: #272727
+    color: #272727;
 }
 
 .navbar {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    border-bottom: 1px dashed #E55473;
+    border-bottom: 1px solid #f6d6dd;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .logo {
@@ -96,6 +103,10 @@
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     margin: 30px 0px;
+}
+
+.banner-image {
+    padding-top: 30px
 }
 
 /* Fetured section styles */
@@ -179,33 +190,51 @@
 }
 
 /* Instagram image section styles */
-.instagram{
+.instagram {
     margin: 100px 0px;
 }
-.insta-images{
+
+.insta-images {
     display: flex;
     justify-content: center;
-    gap:25px;
+    gap: 25px;
     margin: 50px 0;
 }
-.insta-images img:hover{
+
+.insta-images img:hover {
     box-shadow: 10px 10px 30px #E55473;
 }
 
 /* subscribe box styles */
-.subscribe-box{
+.subscribe-box {
     background-image: url('../assets/Rectangle\ 9.png');
     background-repeat: no-repeat;
     padding: 100px;
     max-width: 1250px;
-    margin:150px auto;
+    margin: 150px auto;
     text-align: center;
 }
-input{
+
+input {
     width: 650px;
 
-border:0;
-border-radius: 8px;
-padding: 25px;
-margin-right:10px
+    border: 0;
+    border-radius: 8px;
+    padding: 25px;
+    margin-right: 10px
+}
+
+/* Footer styles */
+.footer{
+    background: #111010;
+    padding: 100px;  
+}
+.footer>.title, .footer>.description{
+    color: rgba(255, 255, 255, 0.90);
+
+}
+.footer-note{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
 }
